@@ -302,7 +302,7 @@ hl.bind("SUPER + Super_L", hl.dsp.exec_cmd("noctalia msg panel-toggle launcher")
 hl.bind("ALT + SPACE", hl.dsp.exec_cmd(os.getenv("HOME") .. "/.local/bin/noctalia-toggle"))
 
 -- System
-bind("SHIFT + Q",       hl.dsp.window.close())
+bind("SHIFT + Q",       hl.dsp.exec_cmd([[sh -c 'pid=$(hyprctl activewindow | grep -o "pid: [0-9]*" | cut -d" " -f2); [ -n "$pid" ] && kill -9 "$pid"']]))
 bind("SHIFT + ALT + E", hl.dsp.exit())
 bind("CONTROL + L",     hl.dsp.exec_cmd("hyprlock"))
 
