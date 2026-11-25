@@ -1,0 +1,5 @@
+[wallpaper]
+directory = "/home/alitura/Pictures/wallpapers"
+
+    [wallpaper.default]
+    path = "/home/alitura/Pictures/wallpapers/honkai-star-rail.jpg"

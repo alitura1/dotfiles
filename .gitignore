@@ -1,0 +1,12 @@
+*.bak*
+*.backup-*
+*.sorunlu
+*.yedek
+*.pre_dots_next
+backup_*/
+broken_*/
+.initial_startup_done
+intel-card
+nvidia-card
+.wallpaper_current
+.wallpaper_modified

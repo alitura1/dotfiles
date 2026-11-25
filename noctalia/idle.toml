@@ -1,0 +1,7 @@
+[idle]
+behavior_order = ["lock"]
+
+[idle.behavior.lock]
+enabled = true
+timeout = 3600
+action = "lock"
