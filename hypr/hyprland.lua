@@ -288,6 +288,7 @@ bind("U",      hl.dsp.exec_cmd(taskManager))
 
 -- Window mode
 bind("M",         hl.dsp.workspace.toggle_special("magic"))
+bind("SPACE",     hl.dsp.window.fullscreen({ action = "toggle" }))
 bind("SHIFT + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 bind("SHIFT + T", hl.dsp.layout("togglesplit"))
 bind("SHIFT + M", hl.dsp.window.move({ workspace = "special:magic" }))
